@@ -5,6 +5,8 @@
     font-weight: normal;
 }
 
+
+
 /*GENERAL*/
 body {
     font-family: 'gill-sans' !important;
@@ -36,6 +38,10 @@ h3 {
     font-weight: bold;
 }
 
+.row {
+    margin: 0;
+}
+
 #hero {
     background-size: cover;
     background-position: top;
@@ -44,7 +50,35 @@ h3 {
     background-attachment: ;
 }
 
+hr {
+    width: 230px;
+    border: 7px solid #f8f8f8;
+}
+
 /*MENU*/
+details {
+    width: 320px;
+}
+
+details > summary {
+    padding: 2px 6px;
+    width: 15em;
+    border: none;
+    list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+details > p {
+    border-radius: 0 0 10px 10px;
+    padding: 2px 6px;
+    margin: 0;
+    box-shadow: 3px 3px 4px #c85d29;
+}
+
+
 #hero span {
     color: #c85d29;
 }
@@ -191,10 +225,12 @@ h3 {
 
 .hero-acceuil {
     background: url('../img/sunset-3102750_1920%20copie.jpg');
+    background-attachment: fixed;
 }
 
 .header-img {
     top: 200px;
+    padding: 0px;
 }
 
 .bienvenue {
@@ -203,7 +239,8 @@ h3 {
 
 /*HERO - PRODUCTION*/
 .hero-production {
-    background: url('../img/meetings-1149198_1920%20copie.jpg')
+    background: url('../img/meetings-1149198_1920%20copie.jpg');
+    background-attachment: fixed;
 }
 
 .hero-production h1 {
@@ -221,7 +258,8 @@ h3 {
 
 /*HERO - A PROPOS*/
 .hero-a-propos {
-    background: url('../img/audience-828584_1920%20copie.jpg')
+    background: url('../img/audience-828584_1920%20copie.jpg');
+    background-attachment: fixed;
 }
 
 .hero-a-propos h1 {
@@ -249,13 +287,22 @@ h3 {
 
 
 /*MASONRY*/
+.text-masonry {
+    background: #f8f8f8;
+}
+
+.lettre-l {
+    color: #c85d29;
+    font-size: 30px;
+}
 
 * {
     box-sizing: border-box;
 }
 
-body {
-    font-family: sans-serif;
+
+.hover-grid {
+    color: #c85d29;
 }
 
 /* ---- grid ---- */
@@ -263,6 +310,7 @@ body {
 .grid {
     background: #EEE;
     max-width: 1200px;
+
 }
 
 /* clearfix */
@@ -285,6 +333,7 @@ body {
 .grid {
     background: white;
     max-width: 1200px;
+
 }
 
 /* clearfix */
@@ -304,9 +353,9 @@ body {
     margin-bottom: 20px;
     background: url('../img/meetings-1149198_1920.jpg');
     background-size: cover;
-
-    /*  border: 2px solid #d26;*/
-    border-color: hsla(0, 0%, 0%, 0.5);
+    /*    border: 8px solid black;*/
+    /*      border: 2px dotted #c85d29;*/
+    /*    border-color: hsla(0, 0%, 0%, 0.5);*/
     border-radius: 5px;
 }
 
@@ -352,6 +401,11 @@ body {
     height: 400px;
 }
 
+.all-service:hover {
+    background: #6f1b19;
+    border-radius: 15px 50px 30px 5px;
+}
+
 .md-48 {
     font-size: 68px !important;
     color: #c85d29;
@@ -367,7 +421,12 @@ body {
 }
 
 #temoignage {
-    height: 150px;
+    height: 550px;
+}
+
+#temoignage img {
+    width: 740px;
+    height: 547px;
 }
 
 /*FOOTER*/
@@ -441,6 +500,13 @@ ol {
 /*---------------------------------------
   Contact section              
 -----------------------------------------*/
+#home-contact {
+    background: url('../img/rotary-691528_1920%20copie.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
 
 .contact-info .fa {
     padding-right: 5px;

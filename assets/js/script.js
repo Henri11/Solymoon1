@@ -15,7 +15,21 @@ $(function () {
 
     });
     /* COULEUR ICON MENU */
-
+    $('.txt1').hover(function () {
+        $('.p1').toggleClass('hover-grid');
+    });
+    $('.txt2').hover(function () {
+        $('.p2').toggleClass('hover-grid');
+    });
+    $('.txt3').hover(function () {
+        $('.p3').toggleClass('hover-grid');
+    });
+    $('.txt4').hover(function () {
+        $('.p4').toggleClass('hover-grid');
+    });
+    $('.txt5').hover(function () {
+        $('.p5').toggleClass('hover-grid');
+    });
 });
 
 /*AOS */
