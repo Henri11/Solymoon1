@@ -488,7 +488,7 @@ body {
 #service {
 	background: url('../img/Sans%20titre-2.png');
 	background-size: cover;
-	height: 500px;
+	min-height: 500px;
 	width: 100%;
 	background-position: top;
 }
@@ -618,7 +618,7 @@ ol {
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 600px;
+	min-height: 600px;
 }
 
 .contact-info .fa {
