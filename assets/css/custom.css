@@ -705,6 +705,10 @@ ol {
 	.all-service {
 		display:
 	}
+	
+	body, html{
+		overflow-x: hidden;
+	}
 
 
 }
