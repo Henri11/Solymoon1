@@ -717,8 +717,8 @@ ol {
 		background-size: auto;
 	}
 	
-	h1{
-		font-size: 40px !important;
+	h1,.hero-a-propos h1{
+		font-size: 40px !important ;
 	}
 
 
