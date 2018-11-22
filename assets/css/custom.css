@@ -691,7 +691,7 @@ ol {
 
 	/*  HERO  */
 	#hero {
-		background-size: cover;
+		background-size: auto;
 		background-position: top;
 		height: 700px;
 		width: 100%;
@@ -714,6 +714,11 @@ ol {
 	
 	#home-contact{
 		background-attachment: local;
+		background-size: auto;
+	}
+	
+	h1{
+		font-size: 40px;
 	}
 
 
