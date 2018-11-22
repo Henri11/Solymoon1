@@ -317,7 +317,7 @@ details > p {
 .Portfolio {
 	position: relative;
 	margin: 5px;
-/*	border: 2px solid black;*/
+	/*	border: 2px solid black;*/
 	float: left;
 	width: 180px;
 	transition-duration: 0.4s;
@@ -328,7 +328,7 @@ details > p {
 	box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 5px 8px 0 rgba(0, 0, 0, .14), 0 1px 14px 0 rgba(0, 0, 0, .12)
 }
 
-.clear{
+.clear {
 	clear: both;
 }
 
@@ -695,6 +695,7 @@ ol {
 		background-position: top;
 		height: 700px;
 		width: 100%;
+		background-attachment: local;
 	}
 
 	#temoignage img {
@@ -705,9 +706,14 @@ ol {
 	.all-service {
 		display:
 	}
-	
-	body, html{
+
+	body,
+	html {
 		overflow-x: hidden;
+	}
+	
+	#home-contact{
+		background-attachment: local;
 	}
 
 
